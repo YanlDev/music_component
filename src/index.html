@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/output.css" />
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body class="bg-indigo-100">
+    <section
+      class="w-full h-screen bg-mobile sm:bg-desktop bg-contain bg-no-repeat flex items-center"
+    >
+      <div
+        id="card-container"
+        class="w-80 bg-white mx-auto rounded-2xl overflow-hidden shadow-xl shadow-indigo-200"
+      >
+        <div id="card-img-container">
+          <img src="../images/illustration-hero.svg" alt="" />
+        </div>
+        <div id="card-paragraph-container" class="flex flex-col gap-6 p-6">
+          <div id="texts" class="text-blue-950">
+            <h1 class="font-bold text-2xl text-center font-primary my-4">
+              Order Summary
+            </h1>
+            <p class="font-medium text-center text-gray-500">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+          </div>
+          <div
+            id="plan"
+            class="flex items-center justify-between bg-indigo-50 rounded-lg p-3 text-blue-950"
+          >
+            <img src="../images/icon-music.svg" alt="icon music" />
+            <div id="prices">
+              <p class="font-bold text-center">Annual Plan</p>
+              <p class="text-center">$59.99/year</p>
+            </div>
+            <p class="text-indigo-600 font-bold underline">Change</p>
+          </div>
+          <div id="buttons" class="w-full flex flex-col gap-6">
+            <button
+              class="w-full mx-auto bg-indigo-700 rounded-lg text-white font-bold p-3 shadow-xl shadow-indigo-200"
+            >
+              Proceed to Payment
+            </button>
+            <a href="#" class="block mx-auto font-bold text-gray-500"
+              >Cancel Order</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
